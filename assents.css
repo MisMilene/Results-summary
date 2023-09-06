@@ -1,3 +1,13 @@
+body {
+
+margin:0px;
+
+
+}
+
+
+
+
 @font-face{
     font-family:"Avenir Next LT Pro Demi";
     src: url(./assets/fonts/static/AvenirProDemi.otf);
