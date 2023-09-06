@@ -1,0 +1,287 @@
+@font-face{
+    font-family:"Avenir Next LT Pro Demi";
+    src: url(./assets/fonts/static/AvenirProDemi.otf);
+}
+
+section {
+
+display: flex;
+flex-direction: column;
+width: 800px;
+margin: auto;
+justify-content: center;
+
+}
+
+/* parte roxa */
+.container {
+  background-color: #4b37f4 ; 
+  text-align: center;
+  list-style: none;
+  padding: 13px;
+  width:320px;
+  height: 390px;
+  border-radius:20px 20px 20px 20px ;
+ 
+}
+
+
+.titulo {
+
+  color: #CDC7FF;
+  font-family:"Avenir Next LT Pro Demi";
+  font-size: 20px;
+
+}
+
+ /* parte da bolinha */
+.degrade {
+
+  border-radius: 50% ;
+  color: white;
+  height:140px;
+  width: 150px;
+  align-items: left;
+  justify-content: center;
+  text-align:center ; 
+  padding: 16px;
+  margin: auto;
+  background-image: linear-gradient(to top,#4B37F4,#2717a1);
+
+}
+
+/*76 */
+h1 {
+  font-family:"Avenir Next LT Pro Demi";
+  font-size: 75px;
+  margin: 12px 20px -20px 20px;
+  color: white; 
+}
+
+/* of 100 */
+span {
+
+  margin: auto;
+  color:  #CDC7FF;
+  font-family: "Avenir Next LT Pro Demi";
+}
+ 
+/* titulo em baixo*/
+h2 {
+
+  color: white;
+  font-family: "Avenir Next LT Pro Demi";
+  margin-top:21px;
+
+}
+    
+.text {
+
+  font-family:"Avenir Next LT Pro Demi";
+  color: #CDC7FF;
+  text-align: center;
+  margin-top:-47px;
+  font-size: 17px;
+
+}
+
+/*summary*/
+h3 {
+
+  color: black;
+  margin-top: 10px;
+  margin-bottom:2px; 
+  font-family:"Avenir Next LT Pro Demi";
+  font-size: 25px;
+}
+
+/* toda a lista */
+ul {
+  text-align:center;
+  justify-content: center;
+  border-radius: 4px 20px 20px 1px;
+  margin: auto;
+  padding: 12px;
+  padding-right: 30px;
+  padding-left: 60px;
+  width: 320px;
+  height: 390px;
+  gap: 18px;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  box-shadow: 20px -2px 20px 1px #c1e8fff5;
+  margin-bottom:-400px;
+  margin-top: -414px;
+  margin-left: 325px;
+ 
+}
+
+/* linhas */
+ul li {
+
+   
+   text-align: left;
+   font-family:"Avenir Next LT Pro Demi";
+   border-radius: 7px 7px 7px 7px;
+   align-items: center;
+   height: 45px;
+   width: 310px;
+   padding-left: 10px;
+}
+
+#table {
+
+text-align: right;
+height: auto;
+width: 310px;
+
+
+}
+
+.align_left {
+
+text-align: left;
+justify-content: left;
+
+}
+
+.align_rigth{
+  
+    
+    color:#303B59;
+   
+}
+
+/* cor, tamanho das lista e as letras*/
+.reaction {
+
+   color: #df5e67;
+   background-color:#fde1dd;
+   font-family:"Avenir Next LT Pro Demi";
+   font-size: 20px;
+   justify-content: center;
+   padding-top: 5px;
+}
+
+.memory  {
+
+    color:#f7bd47;
+    background-color:#fcf3dd;
+    font-family:"Avenir Next LT Pro Demi";
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 5px;
+    
+}
+
+.Verbal {
+
+    color: #439F87;
+    background-color:#F2FBFA;
+    font-family:"Avenir Next LT Pro Demi";
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 5px;
+
+}
+
+.Visual {
+
+    color: #2A2F8D;
+    background-color:#F3F3FD;
+    font-family:"Avenir Next LT Pro Demi";
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 5px;
+  
+
+}
+
+/* tamanho dos emojis*/
+.reaction img {
+
+    padding-left: 10px;
+    font-size:20px;
+    height:25px;
+    width: 39px;
+
+}
+
+.memory img {
+
+    padding-left: 10px;
+    font-size:20px;
+    height:25px;
+    width: 39px;
+}
+
+.Verbal img {
+
+    padding-left:10px;
+    font-size:20px;
+    height:25px;
+    width: 39px;
+}
+
+.Visual img {
+
+    padding-left: 10px;
+    font-size:20px;
+    height:25px;
+    width: 39px; 
+}
+
+/* botao */
+button { 
+height: 45px;;
+width: 290px;
+border-radius: 25px  25px 25px 25px;
+justify-content: center;
+color: white;
+background-color: #303B59;
+text-align: center;
+font-size: 20px;
+}
+
+
+@media (max-width: 800px) {
+
+section {
+
+  width: 100%;
+ flex-direction: column;
+ box-sizing: border-box;
+
+}
+
+.container {
+
+ padding: 12px;
+ width: 368px;
+ border-bottom-left-radius: 25px;
+ border-bottom-right-radius: 25px;
+ border-top-left-radius:0px;
+ border-top-right-radius:0px;
+}
+
+ul {
+
+ height: 388px; 
+ width:292px;
+ padding: 49px;
+ box-shadow: none;
+ gap:34px;
+ border-radius: 0px;
+ padding-right:0px;
+ padding-left: 0px;
+ margin-bottom:0px;
+ margin-top: 0px;
+ margin-left:40px;
+}
+
+}
+
+
+
+
